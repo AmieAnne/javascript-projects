@@ -1,4 +1,4 @@
-// Run this sample code as-is and examine the output. 
+/// Run this sample code as-is and examine the output. 
 // Should the shuttle have launched? 
 // Did it?
 // Do not worry about fixing the code yet, we will do that in the next series of exercises.
