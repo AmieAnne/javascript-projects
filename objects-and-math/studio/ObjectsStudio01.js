@@ -1,5 +1,8 @@
 // Code your selectRandomEntry function here:
-
+let selectRandomEntry = function(idNumbers) {
+let i = Math.floor(Math.random() * 6)
+return idNumbers[i]
+}
 
 // Code your buildCrewArray function here:
 
@@ -53,3 +56,19 @@ let candidateF = {
 let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF];
 
 // Code your template literal and console.log statements:
+let selectedNumbers = [] 
+while (selectedNumbers.length < 3) {
+  let selectedNum = selectRandomEntry(idNumbers)
+  if (!selectedNumbers.includes(selectedNum)) {
+    selectedNumbers.push(selectedNum)
+  } 
+}
+let crew = []
+animals.forEach((animal) => {
+if(selectedNumbers.includes(animal.astronautID)) {
+  crew.push(animal) 
+}
+}
+);
+
+console.log(crew[0].name + ", " + crew[1].name + ", and " + crew[2].name +  " are going to space!")
