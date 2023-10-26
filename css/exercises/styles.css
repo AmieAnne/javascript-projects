@@ -1,11 +1,6 @@
 /* Start adding your styling below! */ 
 <style>
 { background: #fbff00;
-    background-image: url(value); [url of background image to be used, i.e. background.gif]
-    background-repeat: value; [repeat, no-repeat, repeat-x, repeat-y]
-    background-position: valueI valueII; [valueI: top, center, bottom, percentage, pixel number]
-    [valueII: right, center, left, percentage, pixel number]
-    background-attachment: value; [scroll, fixed]
 }
 h1 {
   text-align: center;
